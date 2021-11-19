@@ -8,9 +8,8 @@ public class main {
 
         System.out.println("Ingrese una frase: ");
         String frase = cargarString().replace(" ", "").toLowerCase();
-        int contador = 0;
-
         char[] arrayFrase = frase.toCharArray();
+        int contador = 0;
 
         for (char letra : arrayFrase) {
             if (Character.toString(letra).matches("[aeiou]"))
