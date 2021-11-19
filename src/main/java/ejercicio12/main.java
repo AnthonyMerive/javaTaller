@@ -16,7 +16,7 @@ public class main {
         } else if (palabraUno.equals(palabraDos)) {
             System.out.println("Las palabras son iguales");
         } else {
-            System.out.println("Las palabras no son iguales");
+            System.out.println("No son iguales");
         }
     }
 
