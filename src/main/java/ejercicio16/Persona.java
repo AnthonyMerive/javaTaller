@@ -93,7 +93,7 @@ public class Persona {
                 '}';
     }
 
-    public String generaDNI(){
+    private String generaDNI(){
         char [] letras = {'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
         int min = 10000000;
         int max = 99999999;
