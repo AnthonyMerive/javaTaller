@@ -23,7 +23,7 @@ public class Principal {
 
         System.out.println("\nREGISTRO DE SERIES\n");
         for (int i = 0; i < series.length; i++ ) {
-            System.out.println("Datos de la Serie "+(i+1)+"\n");
+            System.out.println("\nDatos de la Serie "+(i+1)+"\n");
 
             System.out.println("Introduce el titulo: ");
             titulo = cargarString();
@@ -39,7 +39,7 @@ public class Principal {
 
         System.out.println("\nREGISTRO DE VIDEOJUEGOS\n");
         for (int i = 0; i < videojuegos.length; i++ ) {
-            System.out.println("Datos del videojuego "+(i+1)+"\n");
+            System.out.println("\nDatos del videojuego "+(i+1)+"\n");
 
             System.out.println("Introduce el titulo: ");
             titulo = cargarString();
@@ -57,19 +57,26 @@ public class Principal {
 
         int contador = 0;
 
-        //asigno estos parametros como entregados
+        //asigno estas series y juegos como entregados:
+
         series[1].entregado();
         videojuegos[0].entregado();
 
         System.out.println("\n\nSeries Registradas:");
         for (Serie serie : series) {
-            if(serie.entregado) contador++;
+            if(serie.entregado) {
+                contador++;
+                serie.devolver();
+            }
             System.out.println(serie);
 
         }
         System.out.println("\nVideojuegos Registrados:");
         for (Videojuego videojuego : videojuegos) {
-            if(videojuego.entregado) contador++;
+            if(videojuego.entregado){
+                contador++;
+                videojuego.devolver();
+            }
             System.out.println(videojuego);
         }
 
