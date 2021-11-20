@@ -21,9 +21,9 @@ public class Principal {
         String creador;
         String compania;
 
-        System.out.println("\nREGISTRO DE SERIES\n");
-        for (int i = 0; i < series.length; i++ ) {
-            System.out.println("\nDatos de la Serie "+(i+1)+"\n");
+        System.out.println("REGISTRO DE SERIES\n");
+        for (int i = 0; i < series.length; i++) {
+            System.out.println("\nDatos de la Serie " + (i + 1) + "\n");
 
             System.out.println("Introduce el titulo: ");
             titulo = cargarString();
@@ -37,9 +37,9 @@ public class Principal {
             series[i] = new Serie(titulo, numeroDeTemporadas, genero, creador);
         }
 
-        System.out.println("\nREGISTRO DE VIDEOJUEGOS\n");
-        for (int i = 0; i < videojuegos.length; i++ ) {
-            System.out.println("\nDatos del videojuego "+(i+1)+"\n");
+        System.out.println("REGISTRO DE VIDEOJUEGOS\n");
+        for (int i = 0; i < videojuegos.length; i++) {
+            System.out.println("\nDatos del videojuego " + (i + 1) + "\n");
 
             System.out.println("Introduce el titulo: ");
             titulo = cargarString();
@@ -64,23 +64,33 @@ public class Principal {
 
         System.out.println("\n\nSeries Registradas:");
         for (Serie serie : series) {
-            if(serie.entregado) {
+            if (serie.entregado) {
                 contador++;
                 serie.devolver();
             }
+
             System.out.println(serie);
+
+            if (serie.compareTo(serie) > 1) {
+                System.out.println("La serie" + serie.titulo + " tiene mas temporadas");
+            }
 
         }
         System.out.println("\nVideojuegos Registrados:");
         for (Videojuego videojuego : videojuegos) {
-            if(videojuego.entregado){
+            if (videojuego.entregado) {
                 contador++;
                 videojuego.devolver();
             }
+
             System.out.println(videojuego);
+
+            if (videojuego.compareTo(videojuego) > 1) {
+                System.out.println("La serie" + videojuego.titulo + " tiene mas temporadas");
+            }
         }
 
-        System.out.println("series y videojuegos Entregados: "+contador);
+        System.out.println("\n\nseries y videojuegos Entregados: " + contador);
 
     }
 
