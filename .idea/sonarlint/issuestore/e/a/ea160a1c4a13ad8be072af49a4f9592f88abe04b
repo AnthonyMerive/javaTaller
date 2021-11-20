@@ -1,0 +1,6 @@
+
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "BLANCO" 3 times.(®‡—Ó
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¼·…úÿÿÿÿ
