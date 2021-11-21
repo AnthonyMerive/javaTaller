@@ -44,3 +44,13 @@ X
 (src/main/java/ejercicio17/Televisor.java,4\c\4c72aae38af35fb22f1f3dd41dd32b9927495948
 X
 (src/main/java/ejercicio16/Principal.java,c\3\c3442851b9dcd54935977642e19ea7b2d6e7d2af
+T
+$src/main/java/ejercicio18/Serie.java,3\8\382236962dc6b577529895054bca02dec1e20d46
+Y
+)src/main/java/ejercicio18/Videojuego.java,1\5\15b9ee1d68ff65b6132a7b8cc992887aead541d4
+\
+,src/main/java/ejercicio18/tareasComunes.java,0\8\0872a6c367a6429574ef5c562397883eecea46b1
+X
+(src/main/java/ejercicio18/Principal.java,3\7\3780d1d2c7964835291fd74f550b8661a1c5b04a
+X
+(src/main/java/ejercicio17/Principal.java,c\3\c35e2296513018b2fb1683073e81a3a439438a5d

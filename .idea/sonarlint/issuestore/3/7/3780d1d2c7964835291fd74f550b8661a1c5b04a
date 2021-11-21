@@ -1,0 +1,25 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ØÅ“˜
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Êç÷¢ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Üò•Şøÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.( ‡¥ 
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ÿèàøÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(¦šö³
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ÿ×Ü
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(š†—H
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Üò•Şøÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(šğ£ğ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Ÿèàøÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ê·Å„ıÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(’ãŸ¶ùÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(Ú³§Äÿÿÿÿÿ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(Í¶Á£
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(‚Å¹èùÿÿÿÿ
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(—ø¾ÿÿÿÿÿ8¼óá÷Ó/
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ùÑÅ£ÿÿÿÿÿ8ßğã÷Ó/
+U	java:S106]"9Replace this use of System.out or System.err by a logger.(••Ó¸8Ê»ä÷Ó/
+V
+java:S1128"9Remove this unused import 'ejercicio17.Electrodomestico'.(›ƒ¯‡8¨¦ã÷Ó/
+S
+java:S1128"1Remove this unused import 'ejercicio17.Lavadora'.(¥´â¶üÿÿÿÿ8©¦ã÷Ó/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õšÖò
